@@ -1,0 +1,54 @@
+form {
+  text-align: center;
+  width: 70%;
+  margin: 2rem auto 0 auto;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+
+.form {
+  width: 100%;
+}
+
+.buttons {
+  width: 100%;
+  text-align: start;
+}
+
+button {
+  margin-right: .5rem;
+  margin-right: 1rem;
+  padding-left: 1rem;
+}
+
+/* Estilo para esconder o input de arquivo */
+input[type="file"] {
+  display: none;
+}
+
+/* Estilo para o botão de escolha de arquivos */
+label.md-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+  border: none;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+/* Estilo para quando o botão é clicado */
+label.md-button:hover {
+  background-color: #0056b3; /* Cor de fundo quando hover */
+}
+
+/* Estilo para quando o botão é focado */
+label.md-button:focus {
+  outline: none; /* Remover contorno do foco */
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Adicionar um contorno ao focar */
+}
+
